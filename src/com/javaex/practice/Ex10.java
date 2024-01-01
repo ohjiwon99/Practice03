@@ -8,26 +8,25 @@ public class Ex10 {
 		Scanner sc =new Scanner(System.in);
 		System.out.println("숫자를 입력하세요");
 		
-		while(true) {		
-			//반복
-		System.out.println("숫자: ");
-		int a = sc.nextInt();
 		
-		if(a==0) {
-			System.out.println(" ");
+		
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("숫자: ");
+			int a = sc.nextInt();
+			int max=a;
 			
-		}//else (if 다음은 else인데 생략한 이유는 브레이크 다음으로는 갈 수 없기 때문)
+			if (max<a) {
+				max=a;
+			}
+		}String max = null;
+		System.out.println("최대값은"+max+"입니다.");
+			
 		
-		/* if (a%3==0) {
-			System.out.println("3의 배수 입니다.");		
-		}else {
-			System.out.println("3의 배수가 아닙니다.");
-	
+	sc.close();}}
 		
-		sc.close();    
-		
-		}*/
-	}}}
+
+
 
 
 
