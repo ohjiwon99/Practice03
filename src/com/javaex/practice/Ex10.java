@@ -10,16 +10,16 @@ public class Ex10 {
 		
 		
 		
-		
+		int max=0;
 		for (int i = 0; i < 5; i++) {
 			System.out.println("숫자: ");
 			int a = sc.nextInt();
-			int max=a;
+			
 			
 			if (max<a) {
 				max=a;
 			}
-		}String max = null;
+		}
 		System.out.println("최대값은"+max+"입니다.");
 			
 		
